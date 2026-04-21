@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Menu 1</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- iFrame Resizer -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/4.3.2/iframeResizer.min.js" integrity="sha512-dnvR4Aebv5bAtJxDunq3eE8puKAJrY9GBJYl9GC6lTOEC76s1dbDfJFcL9GyzpaDW4vlI/UjR8sKbc1j6Ynx6w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <style type="text/css">
+        h1, h2, p {
+            font-family: 'Lobster', cursive;
+        }
+        .header {
+            padding: 10px;
+            height: auto;
+            background-image: url('imgs/nail-salon-header-pink.jpg');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .footer {
+            height: auto;
+            background-color: pink;
+            padding: 10px;
+        }
+        h1, h2 {
+            font-size: 1.5vw;
+        }
+        iframe {
+            width: 100%;
+            min-height: 80%;
+        }
+    </style>
+</head>
+<body>
+    <div class="text-center header">
+        <h1>OSAKA SPA</h1>
+        <h2>23 Tokyo Drive. San Diego, CA 22400</h2>
+        <h2>(619) 146-5458</h2>
+    </div>
+
+    <div class="container">
+        <h2>Nail Salon Menu</h2>
+
+        <div class="row">
+            <div class="col-md-4">
+                <h3>Manicures</h3>
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h6 class="card-title">Classic Manicure</h6>
+                        <p class="card-text">Basic manicure with cuticle care and shaping.</p>
+                        <p class="card-text">Duration: 45 mins</p>
+                        <p class="card-text">Price: $25</p>
+                    </div>
+                </div>
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h6 class="card-title">Gel Manicure</h6>
+                        <p class="card-text">Long-lasting gel polish application.</p>
+                        <p class="card-text">Duration: 60 mins</p>
+                        <p class="card-text">Price: $40</p>
+                    </div>
+                </div>
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h6 class="card-title">French Manicure</h6>
+                        <p class="card-text">Classic French tip manicure.</p>
+                        <p class="card-text">Duration: 60 mins</p>
+                        <p class="card-text">Price: $35</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <h3>Pedicures</h3>
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h6 class="card-title">Classic Pedicure</h6>
+                        <p class="card-text">Basic pedicure with foot soak, exfoliation, and shaping.</p>
+                        <p class="card-text">Duration: 60 mins</p>
+                        <p class="card-text">Price: $30</p>
+                    </div>
+                </div>
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h6 class="card-title">Gel Pedicure</h6>
+                        <p class="card-text">Long-lasting gel polish application on feet.</p>
+                        <p class="card-text">Duration: 75 mins</p>
+                        <p class="card-text">Price: $50</p>
+                    </div>
+                </div>
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h6 class="card-title">French Pedicure</h6>
+                        <p class="card-text">Classic French tip pedicure.</p>
+                        <p class="card-text">Duration: 75 mins</p>
+                        <p class="card-text">Price: $45</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <h3>Specialty Services</h3>
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h6 class="card-title">Acrylic Nails</h6>
+                        <p class="card-text">Adding acrylic tips to natural nails.</p>
+                        <p class="card-text">Duration: 90 mins</p>
+                        <p class="card-text">Price: $65</p>
+                    </div>
+                </div>
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h6 class="card-title">Nail Art</h6>
+                        <p class="card-text">Custom nail art design.</p>
+                        <p class="card-text">Duration: 60-90 mins (depending on design)</p>
+                        <p class="card-text">Price: $30 - $75</p>
+                    </div>
+                </div>
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h6 class="card-title">Spa Pedicure</h6>
+                        <p class="card-text">Includes a foot massage and hydrating mask.</p>
+                        <p class="card-text">Duration: 90 mins</p>
+                        <p class="card-text">Price: $55</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-center footer">
+        <h2>Powered by <a href="https://htswipe.com/">HTSwipe</a> - Payment & Marketing Solutions</h2>
+    </div>
+
+    <script>
+        iFrameResize({log:true, sizeHeight:true});
+    </script>
+</body>
+</html>
